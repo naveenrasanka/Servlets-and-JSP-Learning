@@ -1,0 +1,5 @@
+Servlets are used to generate dyanamic responses to client
+
+Apache Tomcat is a free, open-source Java web server and servlet container developed by the Apache Software Foundation. 
+It is designed specifically to execute Java Servlets and render Jakarta Server Pages (JSP),
+ providing a reliable runtime environment for hosting Java-based web applications
