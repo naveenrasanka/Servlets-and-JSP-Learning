@@ -14,7 +14,7 @@ public class indexMain extends HttpServlet {
     public void FirstServlet(){
         System.out.println("servlet obj is created internally");
     }
-
+@Override
     public void doPost(HttpServletRequest request,
                           HttpServletResponse response)throws ServletException,IOException
     {

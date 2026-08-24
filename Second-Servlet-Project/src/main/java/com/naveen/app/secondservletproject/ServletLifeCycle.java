@@ -19,8 +19,12 @@ public class ServletLifeCycle extends HttpServlet {
         System.out.println("Servlet obj is created!!");
     }
      public void init(ServletConfig config)throws ServletException{
+        
+        //super.init(config);
+       //  System.out.println("Servlet is initialized");
 
      }
+     @Override
     public void service(HttpServletRequest request,
                         HttpServletResponse response)throws ServletException, IOException {
         System.out.println("Handle Request Response back");
