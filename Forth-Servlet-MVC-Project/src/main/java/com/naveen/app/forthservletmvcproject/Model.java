@@ -48,6 +48,7 @@ public class Model
         String Query="INSERT INTO users(uname,uemail,upassword,ucity)VALUES(?,?,?,?)";
 
         try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn= Connections.getConnection();
             PreparedStatement ps= conn.prepareStatement(Query);
 
@@ -57,6 +58,7 @@ public class Model
             ps.setString(4,city);
 
        row=ps.executeUpdate();
+
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
