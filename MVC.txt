@@ -1,0 +1,5 @@
+MVC architechture    
+
+M - Model (fetch data ,store data,update data,delete data) 
+V - View (its what user interact visually)HTML or JSP
+C - Controller (manage flow of data between model and view) Servlet
