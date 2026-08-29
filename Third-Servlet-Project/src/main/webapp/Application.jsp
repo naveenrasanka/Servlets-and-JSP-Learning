@@ -24,9 +24,9 @@
     out.println("Hello "+name);
 
 %>
-
-<h1><%= date %></h1>
-<h2><%= name %></h2>
-<h2><%= city %></h2>
+<h1>Hello This is Test 111</h1>
+<h1>Your date is My <%= date %></h1>
+<h2>Hello your name is <%= name %></h2>
+<h2>Hello I know you are from <%= city %></h2>
 </body>
 </html>

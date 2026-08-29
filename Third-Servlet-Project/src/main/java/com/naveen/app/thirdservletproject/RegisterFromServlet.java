@@ -1,5 +1,6 @@
 package com.naveen.app.thirdservletproject;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -21,7 +22,7 @@ public class RegisterFromServlet extends HttpServlet {
     @Override
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("Control in Servlet");
-
+          // RequestDispatcher requestDispatcher= request.getRequestDispatcher(); use to pass
         String name= request.getParameter("name");
         String Email= request.getParameter("email");
         String password= request.getParameter("password");
